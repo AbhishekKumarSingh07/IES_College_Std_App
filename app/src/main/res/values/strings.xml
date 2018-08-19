@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">STUDENT</string>
+    <string name="clg_name"><b>IES COLLEGE OF TECHNOLOGY</b></string>
+    <string name="about_clg">
+        <b><font color="#000">AMIT KUMAR\n</font></b>
+                Email:   sonukumar201495@gmail.com \n
+                Phone:    9074970659\n
+                Address:  S/O-Vinod Pandey,Vill+P.O :-Dirmobara, P.S - Roh ,Dist-Nawada,Bihar,805104  \n  \n
+        <b><font color="#000">OBJECTIVE\n</font></b>
+        To work in a healthy, innovative and challenging environment extracting the best out of me,
+        which is conducive to learn and grow at professional as well as personal level thereby directing my future
+        endeavors as an asset to the organization.
+    </string>
+    <string name="contact_us">
+        <b><font color="#000">Name</font></b>   : Amit Kumar\n
+<b><font color="#000">Date of Birth</font></b>  : July 10, 1996\n
+<b><font color="#000">Hobbies</font></b>    : Listening Music,Cricket,Gaming.\n
+<b><font color="#000">Languages Known</font></b>	: English, Hindi.\n
+<b><font color="#000">Permanent Address</font></b>	: S/O-Vinod Pandey,Vill+P.O :-Dirmobara,
+            P.S - Roh,Nawada ,Bihar,805104
+
+
+    </string>
+</resources>

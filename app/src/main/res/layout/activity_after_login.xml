@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AfterLoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#c46262">
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:onClick="off"
+            android:src="@mipmap/my_close"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Abhishek Kumar Singh"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#ffffff"/>
+            <TextView
+                android:id="@+id/enroll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0177CS151007"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/branch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CSE"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/sem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VII Sem"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/college"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:drawableTop="@drawable/log"
+                android:text="IES COLLEGE OF TECHNOLOGY"
+                android:textColor="#d1bd08"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/aaa"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginTop="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_margin="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/dnp"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="News paper"
+                android:textSize="15sp"
+                android:drawableTop="@drawable/news"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:background="@drawable/box"
+                android:onClick="news"/>
+
+            <TextView
+                android:id="@+id/acs"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="All Syllabus"
+                android:textSize="15sp"
+                android:drawableTop="@drawable/course"
+                android:textStyle="bold"
+                android:onClick="news"
+                android:textColor="@color/colorPrimary"
+                android:background="@drawable/box"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/de"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Examination"
+                android:textSize="15sp"
+                android:drawableTop="@drawable/mexam"
+                android:textStyle="bold"
+                android:onClick="news"
+                android:textColor="@color/colorPrimary"
+                android:background="@drawable/box"/>
+
+
+            <TextView
+                android:id="@+id/scrbrd"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Scoreboard"
+                android:onClick="news"
+                android:textSize="15sp"
+                android:drawableTop="@drawable/news"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:background="@drawable/box"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp">
+
+            <TextView
+                android:id="@+id/swot"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="SWOT"
+                android:textSize="15sp"
+                android:drawableTop="@drawable/swot"
+                android:textStyle="bold"
+                android:onClick="news"
+                android:textColor="@color/colorPrimary"
+                android:background="@drawable/box"/>
+
+
+            <TextView
+                android:id="@+id/trng"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Training"
+                android:textSize="15sp"
+                android:onClick="news"
+                android:drawableTop="@drawable/training"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:background="@drawable/box"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp">
+            <TextView
+                android:id="@+id/faculty"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Faculties"
+                android:textSize="15sp"
+                android:onClick="news"
+                android:drawableTop="@drawable/interact"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:background="@drawable/box"/>
+
+            <TextView
+                android:id="@+id/suggest"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Suggestions"
+                android:textSize="15sp"
+                android:onClick="news"
+                android:drawableTop="@drawable/suggest"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:background="@drawable/box"/>
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
